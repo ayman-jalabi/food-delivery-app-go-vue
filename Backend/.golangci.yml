@@ -1,0 +1,5 @@
+issues:
+  exclude-dirs:
+    - vendor
+    - internal
+exclude-use-default: false

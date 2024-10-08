@@ -1,0 +1,37 @@
+@import './base.css';
+@import 'bootstrap/dist/css/bootstrap.css';
+
+:root {
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.color {
+  text-decoration: none;
+  color: #f39c12;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(66, 100%, 46%, 0.4);
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: flex-start;
+    padding: 2rem;
+  }
+
+
+}
